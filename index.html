@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="el">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Playing in the Backyard with MrP</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/laravel.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/atom-one-dark.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        
+        <section class="slide-intro" data-markdown="slides/intro.md" data-background-image="lib/img/intro.png" data-background-size="40%"></section>
+        
+        <section id = "mrp-in-political-polling">
+          <section data-markdown="slides/mrp-in-the-us.md"></section>
+          <section data-markdown="slides/tadpoles.md"></section>
+          <section data-markdown="slides/back-to-the-us.md"></section>
+          <section data-markdown="slides/us-2016.md"></section>
+          <section data-markdown="slides/political-use-elsewhere.md"></section>
+        </section>
+
+        <section>
+          
+        </section>
+
+        <section data-markdown="slides/naming.md"></section>
+        <section data-markdown="slides/open-source.md"></section>
+        <section>
+          <section data-markdown="slides/autoloader.md"></section>
+          <section data-markdown="slides/structure.md"></section>
+        </section>
+        <section>
+          <section data-markdown="slides/composer.md"></section>
+          <section data-markdown="slides/composer-json.md"></section>
+        </section>
+        <section data-markdown="slides/framework-agnostic.md"></section>
+        <section data-markdown="slides/coding-style.md"></section>
+        <section data-markdown="slides/unit-tests.md"></section>
+        <section data-markdown="slides/docblock.md"></section>
+        <section data-markdown="slides/semver.md"></section>
+        <section data-markdown="slides/changelog.md"></section>
+        <section data-markdown="slides/continuous-integration.md"></section>
+        <section data-markdown="slides/documentation.md"></section>
+        <section data-markdown="slides/license.md"></section>
+        <section data-markdown="slides/contributing.md"></section>
+        <section data-markdown="slides/courier-package.md"></section>
+
+        <section>
+          <section data-markdown="slides/service-provider.md"></section>
+          <section data-markdown="slides/routing.md"></section>
+          <section data-markdown="slides/configuration.md"></section>
+          <section data-markdown="slides/migrations.md"></section>
+          <section data-markdown="slides/translations.md"></section>
+          <section data-markdown="slides/views.md"></section>
+          <section data-markdown="slides/commands.md"></section>
+          <section data-markdown="slides/assets.md"></section>
+        </section>
+
+        <section data-markdown="slides/examples.md"></section>
+        <section data-markdown="slides/thanks.md"></section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+        height: 750,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          // { src: 'plugin/prism/prism.js', async: true, callback: function() {  } }
+        ]
+      });
+    </script>
+  </body>
+</html>
